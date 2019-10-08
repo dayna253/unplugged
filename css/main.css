@@ -325,6 +325,8 @@ input[type=button] {
 
 .features {
   background: url(../img/camp.jpg) #333;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -337,6 +339,7 @@ input[type=button] {
 .features article {
   width: 55%;
   margin: 30px 0;
+  text-align: center;
 }
 
 .features .features-item {
@@ -344,6 +347,11 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features p {
