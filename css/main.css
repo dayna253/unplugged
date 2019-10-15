@@ -131,11 +131,14 @@ h1 {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
+  margin: 0px;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
   margin: 20px 0;
   font-weight: normal;
 }
@@ -143,6 +146,7 @@ h3 {
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
   margin: 20px 0;
   font-weight: normal;
 }
@@ -259,7 +263,7 @@ footer .social-icons {
 
 footer .social-icons p {
   background-color: #527158;
-  border-radius: 60%;
+  border-radius: 50%;
   width: 40px;
   height: 40px;
   display: flex;
@@ -561,8 +565,8 @@ input[type=button] {
   }
 
   h3 {
-    font-size: 2.3em;
-    line-height: 1.25em;
+    font-size: 1.5em;
+    line-height: 1.25;
   }
    
   /* Header */
@@ -631,6 +635,10 @@ input[type=button] {
     width: 50%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /* Reviews */
   .reviews article {
     display: flex;
@@ -677,6 +685,11 @@ input[type=button] {
       line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -693,6 +706,10 @@ input[type=button] {
     width: 40%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -705,10 +722,6 @@ input[type=button] {
 
   .contact-content h4 {
     font-size: 1.5em;
-  }
-
-  .map figure {
-    padding-bottom: 50%;
   }
 
   /* --- FAQ PAGE --- */
